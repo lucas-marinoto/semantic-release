@@ -18,7 +18,7 @@ jobs:
       - name: PWD
         run: ls -la
       - name: CD
-        run: cd src
+        working-directory: ./src
       - name: PWD SRC
         run: ls -la      
       - name: Install dependencies
