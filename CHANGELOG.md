@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/lucas-marinoto/semantic-release/compare/v1.1.3...v1.1.4) (2023-04-19)
+
+
+### Bug Fixes
+
+* ajustado readme ([3001d5d](https://github.com/lucas-marinoto/semantic-release/commit/3001d5d84bf3687b1f7106e231d08e6c87182ef8))
+
 ## [1.1.3](https://github.com/lucas-marinoto/semantic-release/compare/v1.1.2...v1.1.3) (2023-04-19)
 
 
