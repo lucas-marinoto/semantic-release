@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/lucas-marinoto/semantic-release/compare/v1.1.1...v1.1.2) (2023-04-19)
+
+
+### Bug Fixes
+
+* teste branch ([68ff1a2](https://github.com/lucas-marinoto/semantic-release/commit/68ff1a2c39b5409002c79897806fbc912fb9081c))
+
 ## [1.1.1](https://github.com/lucas-marinoto/semantic-release/compare/v1.1.0...v1.1.1) (2023-04-19)
 
 
