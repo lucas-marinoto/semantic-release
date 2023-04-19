@@ -1,35 +1,31 @@
-name: semantic-release-yarn--onPush
+name: Semantic release 2
 
 on:
   push:
     branches:
-      - feature/*
-
+      - feature/1*
 jobs:
-  semantic-release-yarn--onPush:
+  publish-release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-
-      - uses: actions/checkout@master
-
-      - uses: actions/setup-node@master
+      - uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: '14'
-
-      - run: yarn
-
-      - run: |
-          npm install -g \
-            semantic-release \
-            @semantic-release/github \
-            @semantic-release/git \
-            @semantic-release/exec \
-            @semantic-release/changelog \
-            @semantic-release/npm \
-            semantic-release-chrome \
-            semantic-release-firefox-add-on \
-            aggregate-error
-
-      - run: semantic-release
+          node-version: 16
+      # - name: Directory src
+      #   working-directory: ./src
+      #   run: ls -la
+      # - name: Install dependencies
+      #   run: npm install
+      # - name: Build app
+      #   run: npm run build 
+      - name: Semantic release
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        # run: npx semantic-release --branches feature/*
+        - run: npm install -g semantic-release @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/exec @semantic-release/git @semantic-release/npm @semantic-release/release-notes-generator
+        - run: semantic-release --ci --branches feature/*
+        # run: npx semantic-release
