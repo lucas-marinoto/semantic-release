@@ -25,5 +25,6 @@ jobs:
       - name: Semantic release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: npx semantic-release --branches feature/*
+        # run: npx semantic-release --branches feature/*
+        run: npx -p node@14 -c npx semantic-release --branches feature/*
         # run: npx semantic-release
