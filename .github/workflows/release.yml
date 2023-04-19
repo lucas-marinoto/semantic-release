@@ -17,6 +17,10 @@ jobs:
           node-version: 14.17
       - name: PWD
         run: ls -la
+      - name: CD
+        run: cd src
+      - name: PWD SRC
+        run: ls -la      
       - name: Install dependencies
         run: npm install
       - name: Build app
