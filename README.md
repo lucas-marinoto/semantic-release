@@ -1,3 +1,5 @@
+[![Semantic release](https://github.com/lucas-marinoto/semantic-release/actions/workflows/release.yml/badge.svg)](https://github.com/lucas-marinoto/semantic-release/actions/workflows/release.yml)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
