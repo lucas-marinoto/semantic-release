@@ -8,6 +8,7 @@
       "@semantic-release/npm",
       "@semantic-release/git"
     ],
+    "branches": ["master", "feature/*"],
     "release": {
       "prepare": [
         "@semantic-release/changelog",
