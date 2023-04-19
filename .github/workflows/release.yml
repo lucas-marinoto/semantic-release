@@ -15,15 +15,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.17
-      - name: PWD
-        run: ls -la
-      - name: CD
+      - name: Directory SRC
         working-directory: ./src
         run: ls -la
-      - name: PWD SRC
-        run: ls -la      
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Build app
         run: npm run build 
       - name: Semantic release
