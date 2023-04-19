@@ -15,10 +15,15 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16
-      - name: Semantic release a
+      - name: Dep Semantic release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         # run: npx semantic-release --branches feature/*
         run: npm install -g semantic-release @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/exec @semantic-release/git @semantic-release/npm @semantic-release/release-notes-generator
+        # run: npx semantic-release
+      - name: Semantic release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        # run: npx semantic-release --branches feature/*
         run: semantic-release --ci --branches feature/*
         # run: npx semantic-release
