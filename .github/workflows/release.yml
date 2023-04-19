@@ -14,9 +14,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 18
+          node-version: 14.17
+      - name: PWD
+        run: ls -la
       - name: Install dependencies
-        run: npm install 
+        run: npm install
       - name: Build app
         run: npm run build 
       - name: Semantic release
