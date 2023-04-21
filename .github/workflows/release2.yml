@@ -11,10 +11,10 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v2
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 16
+      # - name: Setup Node.js
+      #   uses: actions/setup-node@v1
+      #   with:
+      #     node-version: 16
       - name: Dep Semantic release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
