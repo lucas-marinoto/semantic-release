@@ -1,3 +1,22 @@
+# [1.2.0](https://github.com/lucas-marinoto/semantic-release/compare/v1.1.4...v1.2.0) (2023-04-21)
+
+
+### Bug Fixes
+
+* ajuste branch ([cf0b1fa](https://github.com/lucas-marinoto/semantic-release/commit/cf0b1fa20d5d9830f8382eae638a2bc34877e1de))
+* ajuste git ([d5d7a77](https://github.com/lucas-marinoto/semantic-release/commit/d5d7a77255fb2721af51698aa84c6bcfa9e44259))
+* ajuste semantic ([e3fe8ca](https://github.com/lucas-marinoto/semantic-release/commit/e3fe8ca73422fbba86887877d4a6396cbddc27ef))
+* changed release ([0012a9d](https://github.com/lucas-marinoto/semantic-release/commit/0012a9d7483f63c84a9075c9e9ca12193b876a38))
+* changed release2 ([284f148](https://github.com/lucas-marinoto/semantic-release/commit/284f14853672ad17dc6856029fe7a27de4593571))
+* dep semantic ([c7316e4](https://github.com/lucas-marinoto/semantic-release/commit/c7316e4d7f3e32f41dcc8fb15c499bcbed498bce))
+* node 14 ([746ba5d](https://github.com/lucas-marinoto/semantic-release/commit/746ba5d0706c217cf77643748e66e7acf17b2c69))
+* semantic realise fix ([238f885](https://github.com/lucas-marinoto/semantic-release/commit/238f885435edc770bd24c621610732fda6679980))
+
+
+### Features
+
+* 1 ([6bcc1ee](https://github.com/lucas-marinoto/semantic-release/commit/6bcc1ee057fe7b1c85e139d7001fa4e4a60a891b))
+
 ## [1.1.4](https://github.com/lucas-marinoto/semantic-release/compare/v1.1.3...v1.1.4) (2023-04-19)
 
 
