@@ -1,3 +1,5 @@
+# [1.3.0](https://github.com/lucas-marinoto/semantic-release/compare/v1.2.0...v1.3.0) (2023-04-21)
+
 # [1.2.0](https://github.com/lucas-marinoto/semantic-release/compare/v1.1.4...v1.2.0) (2023-04-21)
 
 
